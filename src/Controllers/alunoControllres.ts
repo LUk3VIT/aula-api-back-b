@@ -17,7 +17,6 @@ export class AlunoController {
         const novoAluno: Aluno = { ra: ra, nome: nome };
         this.alunos.push(novoAluno);
         return res.status(201).json(novoAluno);
-
     }
 
     put (req: Request, res: Response): Response {
