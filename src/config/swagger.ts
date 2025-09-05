@@ -8,6 +8,17 @@ const options = {
             version: '1.0.0',
             description: 'APE para gerenciamento de alunos'
         },
+
+        components: {
+            securitySchemes: {
+                bearerAuth: {
+                    type: 'http',
+                    schema: 'bearer',
+                    bearerFormat: 'JWT'
+                }
+            }
+        },
+
         servers: [
             {
                 url: 'http://localhost:3000',
