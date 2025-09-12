@@ -72,7 +72,7 @@ authRouter.post("/login", (req,res) => authCotroller.login(req,res));
  *               - nome
  *               - email
  *               - senha
- *             properties:
+ *             properties:npm
  *               nome:
  *                 type: string
  *               email:
